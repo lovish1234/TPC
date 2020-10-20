@@ -1,6 +1,6 @@
 # Video Uncertainty Estimation
 
-* Joint work with Ruoshi Liu and Basile Van Hoorick *
+*Joint work with Ruoshi Liu and Basile Van Hoorick*
 
 We use video prediction as a proxy task to estimate the uncertainty of video and learn a video representation in a self-supervised manner.
 #### For DPC Readme [Link](readme_dpc.md)
