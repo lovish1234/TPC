@@ -1,0 +1,56 @@
+# Basics
+conda create --prefix ./TPC python=3.7
+conda install -c pytorch -y pytorch=1.3.1
+conda install -c soumith -y torchvision=0.4.2
+#conda install -c conda-forge -y tensorboard=2.1.0
+pip install tensorboard
+conda install -c conda-forge -y tensorboardx=2.0
+
+# Others
+conda install -y joblib=0.14.1
+conda install -y tqdm=4.41.1 
+conda install -c conda-forge -y ipdb=0.12.3
+conda install -y matplotlib
+conda install -c anaconda -y pillow=6.1
+conda install -y pandas=0.25.3
+conda install -c anaconda seaborn=0.10.1
+
+# Kinetics 400
+pip install --upgrade youtube-dl
+
+# Epic Kitchens
+pip install epic-kitchens==1.7.1
+
+# DPC installation [Specifics]
+conda install -c menpo -y ffmpeg=4.0.2
+#conda install -c anaconda -y mkl=2019.4
+#conda install -c anaconda -y numpy=1.17.4
+conda install -c anaconda -y openssl=1.1.1d
+#conda install -c anaconda -y pandas= 0.19.2
+conda install -c conda-forge -y python-dateutil=2.8.1
+conda install -c anaconda -y pytz=2017.2
+conda install -c anaconda -y readline=6.2
+conda install -c anaconda -y setuptools=27.2.0
+conda install -c anaconda -y six=1.10.0
+conda install -c anaconda -y sqlite=3.13.0
+conda install -c conda-forge -y tk=8.5.18
+conda install -c conda-forge -y wheel=0.29.0
+conda install -c conda-forge -y zlib=1.2.8
+conda install -c menpo -y opencv
+
+# Toy dataset generation
+wget http://deeplearning.net/data/mnist/mnist.pkl.gz
+conda install -c anaconda scipy
+conda install h5py
+conda install moviepy
+conda install imageio==2.4.1
+
+# Dashboard 
+conda install -c plotly -y plotly=4.6.0
+conda install -c conda-forge -y dash=1.9.1
+conda install -c anaconda -y flask=1.1.2
+conda install -c conda-forge -y scikit-video=1.1.11
+conda install -c conda-forge -y ffmpeg=4.0.2
+conda install -c conda-forge -y x264-1!152.20180717
+
+

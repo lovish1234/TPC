@@ -1,0 +1,1 @@
+python plot_distance_distribution.py --embed-dir /proj/vondrick/lovish/DPC/uc-dpc-exp/log_new/block_toy_imagenet_3-128_r18_dpc-rnn_bs64_lr0.001_seq6_pred2_len5_ds1_train-all_constant-1.0_positive_vs_negative-different_radius-type-linear_radius-which-pred/neighbours_L2_block_toy/00500
